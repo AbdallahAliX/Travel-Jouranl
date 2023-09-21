@@ -1,6 +1,7 @@
 import React from 'react'
 import Journy from './journy'
 import data from '../public/data'
+import Header from './header'
 // import './App.css'
 
 export default function App() {
@@ -14,7 +15,8 @@ export default function App() {
 
   return (
     <>
-      {Journey}
+      <Header />
+      {/* {Journey} */}
     </>
   )
 }
