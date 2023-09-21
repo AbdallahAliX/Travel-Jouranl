@@ -1,14 +1,22 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react'
+import Journy from './journy'
+import data from '../public/data'
+// import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  const Journey = data.map(item => {
+    return (
+        <Journy
+            item={item}
+        />
+    )
+})
 
   return (
     <>
-      
+      {Journey}
     </>
   )
 }
 
-export default App
+
