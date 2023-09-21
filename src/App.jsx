@@ -16,7 +16,10 @@ export default function App() {
   return (
     <>
       <Header />
-      {/* {Journey} */}
+      <div className='content'>
+        {Journey}
+      </div>
+      
     </>
   )
 }

@@ -1,0 +1,55 @@
+.journey-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.image{
+    width: 150px;
+    height: 14rem;
+    object-fit: cover;
+    margin-right: 1rem;
+    border-radius: 8px;
+}
+
+.text-wrapper{
+    padding: 10px;
+    padding-top: 25px;
+}
+
+.country-map{
+    display: flex;
+}
+
+.map-link{
+    align-self: center;
+    color: #918E9B;
+    font-size: 11px;
+    margin-left: 10px;
+}
+
+
+.country{
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.title{
+    margin-top: 4px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.date{
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.description{
+    max-width: 440px;
+    font-size: 15px;
+    font-weight: 400;
+}
